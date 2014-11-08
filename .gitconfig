@@ -1,0 +1,38 @@
+[user]
+	email = alex.ford@codetunnel.com
+	name = Alex Ford
+[alias]
+  st = status -sb
+  ci = commit
+  br = branch
+  co = checkout
+  df = diff
+  ready = rebase -i @{u}
+  lg = log --no-merges --pretty=format:'%Cred%h%Creset -%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+  standup = log --pretty=format:'%Cred%h%Creset -%Creset %s %Cgreen(%cD) %C(bold blue)<%an>%Creset' --since yesterday --author Alex
+  purr = pull --rebase
+[push]
+	default = simple
+[diff]
+  tool = bc4
+[difftool]
+  prompt = false
+[difftool "bc4"]
+  trustExitCode = true
+  cmd = `/usr/local/bin/bcomp $LOCAL $REMOTE`
+[merge]
+  tool = bc4
+[mergetool]
+  prompt = false
+[mergetool "bc4"]
+  trustExitCode = true
+  cmd = `/usr/local/bin/bcomp $LOCAL $REMOTE $BASE $MERGED`
+[core]
+	editor = /usr/local/bin/vim
+	excludesfile = /Users/chev/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
