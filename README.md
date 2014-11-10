@@ -27,5 +27,5 @@ There are a ton of fancy dotfiles installers and configuration managers out ther
 ##### Tmux status line.
 ![](http://i.imgur.com/JwZNvgP.png)
 
-##### Vim.
+##### Vim with plugins configured.
 ![](http://i.imgur.com/VYdeNQe.png)
