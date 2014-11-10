@@ -18,14 +18,14 @@ There are a ton of fancy dotfiles installers and configuration managers out ther
 
 ### Screenshots:
 
-> ##### Bash in vi mode.
+##### Bash in vi mode.
 ![](http://i.imgur.com/5yAl9VV.gif)
 
-> ##### Bash Git integration and Git aliases.
+##### Bash Git integration and Git aliases.
 ![](http://i.imgur.com/5BylfL8.png)
 
-> ##### Tmux status line.
+##### Tmux status line.
 ![](http://i.imgur.com/JwZNvgP.png)
 
-> ##### Vim
+##### Vim
 ![](http://i.imgur.com/VYdeNQe.png)
