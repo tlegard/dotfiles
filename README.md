@@ -6,7 +6,7 @@ There are a ton of fancy dotfiles installers and configuration managers out ther
 
 ### Install
 
-```language-bash
+```shell
 $ git clone git@github.com:chevex/dotfiles.git
 $ cd ./dotfiles
 $ ./install.sh
