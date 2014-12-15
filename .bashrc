@@ -14,3 +14,5 @@ function vim() {
     env vim -c Obsession
   fi
 }
+
+HISTCONTROL=ignoreboth

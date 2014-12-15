@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Initialize and update all submodules.
+echo Initializing git submodules.
+git submodule init && git submodule update
+
 # Remove all dotfiles from the home directory if present.
 echo Removing any existing dotfiles from your home directory.
 rm -rf ~/.vim ~/.vimrc ~/.bashrc ~/.bash_profile ~/.inputrc ~/.gitconfig ~/.shell_prompt.sh ~/.tmux.conf ~/.tmux_theme ~/.tmux
