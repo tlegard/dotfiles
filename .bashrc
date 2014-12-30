@@ -3,7 +3,7 @@ alias vnpm='npm --registry http://192.168.211.100:5984/registry/_design/app/_rew
 alias ssh-alex="ssh alex-mbp.local"
 source ~/.shell_prompt.sh
 export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
+source ~/.nvm/nvm.sh
 
 function vim() {
   if test $# -gt 0; then
