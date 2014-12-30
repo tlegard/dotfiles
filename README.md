@@ -4,6 +4,16 @@ There are a ton of fancy dotfiles installers and configuration managers out ther
 
 ---
 
+### Install
+
+```shell
+$ git clone git@github.com:chevex/dotfiles.git
+$ cd ./dotfiles
+$ ./install.sh
+```
+
+---
+
 ### Included Configurations:
 
 - Vim, complete with [plugins](https://github.com/chevex/dotfiles/blob/master/.vim/bundle) and [.vimrc](https://github.com/chevex/dotfiles/blob/master/.vim/vimrc).
