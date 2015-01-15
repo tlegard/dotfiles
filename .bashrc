@@ -1,7 +1,7 @@
 alias ll='ls -AlF'
 source ~/.shell_prompt.sh
 export NVM_DIR=~/.nvm
-source ~/.nvm/nvm.sh
+source $(brew --prefix nvm)/nvm.sh
 
 function vim() {
   if test $# -gt 0; then
