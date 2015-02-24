@@ -7,7 +7,7 @@ There are a ton of fancy dotfiles installers and configuration managers out ther
 ### Install
 
 ```shell
-$ git clone git@github.com:chevex/dotfiles.git
+$ git clone git@github.com:tlegard/dotfiles.git
 $ cd ./dotfiles
 $ ./install.sh
 ```
@@ -16,14 +16,14 @@ $ ./install.sh
 
 ### Included Configurations:
 
-- Vim, complete with [plugins](https://github.com/chevex/dotfiles/blob/master/.vim/bundle) and [.vimrc](https://github.com/chevex/dotfiles/blob/master/.vim/vimrc).
-- [.bash_profile](https://github.com/chevex/dotfiles/blob/master/.bash_profile) which sources `.bashrc` for cross-system interoperability.
-- [.bashrc](https://github.com/chevex/dotfiles/blob/master/.bashrc) containing a few aliases and various configurations.
-- [.gitconfig](https://github.com/chevex/dotfiles/blob/master/.gitconfig) with aliases.
-- [.inputrc](https://github.com/chevex/dotfiles/blob/master/.inputrc) to put bash in vi mode.
-- [.shell_prompt.sh](https://github.com/chevex/dotfiles/blob/master/.shell_prompt.sh) which is sourced by `.bash_profile` for a stylized bash prompt.
-- [.tmux.conf](https://github.com/chevex/dotfiles/blob/master/.tmux.conf) which enables mouse support and maps some keys.
-- [.tmux_theme](https://github.com/chevex/dotfiles/blob/master/.tmux_theme) which is sourced by `.tmux.conf` for a stylized tmux status line.
+- Vim complete with [plugins](https://github.com/tlegard/dotfiles/blob/master/.vim/bundle) and [.vimrc](https://github.com/tlegard/dotfiles/blob/master/.vim/vimrc).
+- [.bash_profile](https://github.com/tlegard/dotfiles/blob/master/.bash_profile) which sources `.bashrc` for cross-system interoperability.
+- [.bashrc](https://github.com/tlegard/dotfiles/blob/master/.bashrc) containing a few aliases and various configurations.
+- [.gitconfig](https://github.com/tlegard/dotfiles/blob/master/.gitconfig) with aliases.
+- [.inputrc](https://github.com/tlegard/dotfiles/blob/master/.inputrc) to put bash in vi mode.
+- [.shell_prompt.sh](https://github.com/tlegard/dotfiles/blob/master/.shell_prompt.sh) which is sourced by `.bash_profile` for a stylized bash prompt.
+- [.tmux.conf](https://github.com/tlegard/dotfiles/blob/master/.tmux.conf) which enables mouse support and maps some keys.
+- [.tmux_theme](https://github.com/tlegard/dotfiles/blob/master/.tmux_theme) which is sourced by `.tmux.conf` for a stylized tmux status line.
 
 ---
 

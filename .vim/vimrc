@@ -11,6 +11,9 @@ endif
 " Allow backspace to remove lines.
 set backspace=indent,eol,start
 
+" Remove trailing whitespace from file on write
+autocmd BufWritePre * :%s/\s\+$//e
+
 " Ensure we are out of crappy vi compatible mode.
 set nocompatible
 
@@ -25,6 +28,9 @@ colorscheme jelleybeans
 
 " Don't let text wrap when it hits the edge of the screen.
 set nowrap
+
+" Use system clipboard for paste by default
+set clipboard=unnamed
 
 " Don't have vim store backup or swap files.
 set nobackup
@@ -72,14 +78,14 @@ endif
 
 " Whenever a buffer is written to a file run the syn script to synchronize with VM.
 
-" Set softtabstop to 2 spaces.
-set softtabstop=2
+" Set softtabstop to 4 spaces.
+set softtabstop=4
 
-" Set shiftwidth to 2 spaces.
-set shiftwidth=2
+" Set shiftwidth to 4 spaces.
+set shiftwidth=4
 
-" Set tabstop to 2 spaces.
-set tabstop=2
+" Set tabstop to 4 spaces.
+set tabstop=4
 
 " Set expandtab by default.
 set expandtab
